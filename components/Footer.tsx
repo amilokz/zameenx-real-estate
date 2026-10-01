@@ -67,7 +67,17 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-7 text-xs sm:flex-row">
           <p>© 2026 ZameenX. All rights reserved.</p>
-          <p className="text-emerald-100/40">Demo website crafted by AKCLNT</p>
+          <p className="text-emerald-100/40">
+            Demo website crafted by{" "}
+            <a
+              href="https://akclnt.com"
+              target="_blank"
+              rel="noopener"
+              className="underline-offset-4 transition-colors hover:text-emerald-100/70 hover:underline"
+            >
+              AKCLNT
+            </a>
+          </p>
         </div>
       </div>
     </footer>
